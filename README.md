@@ -5,11 +5,6 @@ The GTZAN dataset used for training this model
 
 To test and use mode, we can record the song with Nano33, Mobile phone or upload a file from computer.
 
-
-
-
-
-
 First step was installing Edge Impulse CLI and other drivers and preparing software configuration requirements.
 Then, we created a project in the edge impulse website, and did these steps in order:
 1.	Data acquisition: in this step we have to upload training and testing dataset.
@@ -36,6 +31,7 @@ After these steps, our model had 96% accuracy! But after testing recorded sample
 Accuracy decreased, but recorded samples with mobile and Nano33 worked better.
 
 POP example:
+
 ![Create Impulse](Images/pic5.png)
 
 ![Create Impulse](Images/pic6.png)
